@@ -16,6 +16,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\" "
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
   }
 }
