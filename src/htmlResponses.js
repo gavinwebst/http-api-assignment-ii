@@ -15,7 +15,7 @@ const getCSS = (request, response) => {
     response.end();
 };
 
-module.export = {
+module.exports = {
     getIndex, 
     getCSS,
 };
